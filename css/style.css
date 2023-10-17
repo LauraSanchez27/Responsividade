@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#body1 {
+    background-color: #B3EFF8;
+}
+
+#main1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#welcome {
+    border: 1px solid black;
+    min-height: 600px;
+    background-color: #1792A5;
+    min-width: 24%;
+    margin-left: 8%;
+    margin-right: 10%;
+    margin-top: 4%;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+#owl {
+    border: 1px solid black;
+    min-height: 600px;
+    background-color: #75D5E4;
+    min-width: 50%;
+    margin-right: 8%;
+    margin-top: 4%;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#logoOwl {
+    width: 100%;
+    height: 30px;
+    padding-top: 70px;
+    font-size: 210%;
+    font-family: Arial;
+    color: #1AA1B6;
+}
+
+#semAcesso {
+    padding-top: 33px;
+    min-width: 49%;
+    font-size: 130%;
+    font-family: arial;
+    color: #087D92;
+}
+
+.erro {
+    font-size: 150%;
+    font-family: arial;
+    text-decoration: none;
+}
+
+#ftOwl {
+    min-width: 49%;
+}
+
+#txtWelcome {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Arial;
+    font-size: 150%;
+}
+
+#img1 {
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.lbl {
+    font-family: Arial;
+    font-size: 150%;
+    margin-left: -185px;
+}
+
+.input1 {
+    min-width: 75%;
+    min-height: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 6px;
+    background-color: #B4F0F9;
+}
+
+#form {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#bt {
+    height: auto;
+}
+
+#btEntrar {
+    background-color: #7DCBD6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35%;
+    padding-right: 35%;
+    border-radius: 20px;
+    font-family: arial;
+    font-size: 150%;
+    color: white;
+    text-decoration: none;
+}
+
+#body2 {
+    background-color: #75D5E4;
+}
+
+#topo2 {
+    height: 140px;
+    background-color: #9FB2E3;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#imgTopo2owl {
+    border-radius: 100%;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+#voltar2 {
+    min-width: 100%;
+    height: 10px;
+}
+
+#embaixo2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#pesqId2 {
+    min-height: 50px;
+    min-width: 60%;
+    border-radius: 26px;
+}
+
+#secCad {
+    min-height: 600px;
+    min-width: 90%;
+    max-width: 90%;
+    margin: 10px 5%;
+    background-color: #1AA1B6;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    border: 5px solid black;
+}
+
+#divPaiform {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    padding-top: 70px;
+}
+
+#divForm {
+    max-width: 100%;
+    min-height: 500px;
+    min-width: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#voltar3{
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+#txtCadastro{
+    padding-top: 30px;
+    padding-left: 15%;
+    font-family: Arial;
+    font-size: 28px;
+    height: 100px;
+}
+
+#divForm input{
+    min-width: 70%;
+}
+
+#divForm div{
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-family: arial;
+}
+
+#divForm div input{
+    min-width: 75%;
+    min-height: 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#btCadastro{
+    border: solid 5px rgb(0, 0, 0);
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 30px;
+    font-family: Arial;
+    color: black;
+    border-radius: 10px;
+    background-color: #087D92;
+}
